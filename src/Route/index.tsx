@@ -12,6 +12,7 @@ import Instagram from "../Component/Pages/Instagram/Instagram";
 import Amazon from "../Component/Pages/Amazon/Amazon";
 import BookMyShow from "../Component/Pages/BookMyShow/BookMyShow";
 import Whatsapp from "../Component/Pages/Whatsapp/Whatsapp";
+import User from "../Component/Pages/User/User";
 
 const routes = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const routes = createBrowserRouter([
       {
         path: "whatsapp",
         element: <Whatsapp />,
+      },
+      {
+        path: "user",
+        element: <User />,
       },
     ],
   },
